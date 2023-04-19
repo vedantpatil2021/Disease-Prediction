@@ -8,7 +8,7 @@ Created on Sun May  8 21:01:15 2022
 import pickle
 import streamlit as st
 
-parkinsons_model = pickle.load(open('./parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
     
 
