@@ -7,22 +7,9 @@ Created on Sun May  8 21:01:15 2022
 
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
 
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-
-
-# sidebar for navigation
-with st.sidebar:
-    
-    selected = option_menu('Parkinsons Disease Prediction System',
-                          
-                          [
-                           'Parkinsons Prediction'],
-                          icons=['person'],
-                          default_index=0)
-    
     
 
 # Parkinson's Prediction Page
